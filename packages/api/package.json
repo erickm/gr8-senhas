@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "start": "nodemon src/server.js"
   },
   "license": "MIT",
   "dependencies": {

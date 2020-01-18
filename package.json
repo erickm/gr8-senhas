@@ -2,10 +2,16 @@
   "name": "gr8-filas",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "heroku-postbuild": "./scripts/heroku.build"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
+  },
+  "engines": {
+    "yarn": "1.x"
   },
   "license": "MIT"
 }
