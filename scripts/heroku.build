@@ -17,7 +17,7 @@ fi
   if [ "$BUILD_ENV" = "packages/web" ]; then
     yarn workspace packages/web build
   elif [ "$BUILD_ENV" = "packages/api" ]; then
-    yarn workspace packages/api build
+    yarn workspace packages/api start
   else
     echo "Error: no build config for INATO_BUILD_ENV value '$INATO_BUILD_ENV'"
     exit 1
